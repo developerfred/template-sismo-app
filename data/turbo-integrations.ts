@@ -80,6 +80,14 @@ export const turboIntegrations = {
     imgLight: '/integrations/connext.png',
     imgDark: '/integrations/connext.png',
   },
+  sismo: {
+    name: 'Sismo',
+    href: '/integration/sismo',
+    url: 'https://docs.sismo.io/',
+    description: 'Sovereign identity aggregator and crypto-native SSO.',
+    imgLight: '/integrations/sismo/sismo-light.svg',
+    imgDark: '/integrations/sismo/sismo-dark.svg',
+  },
   starter: {
     name: 'Starter Template',
     href: '/integration/starter',

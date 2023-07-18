@@ -312,10 +312,25 @@ const features = [
     demo: (
       <div className="flex items-center justify-center space-x-20">
         <IsLightTheme>
-          <Image alt="PoolTogether logo" height={100} src={turboIntegrations.connext.imgDark} width={100} />
+          <Image alt="connext logo" height={100} src={turboIntegrations.connext.imgDark} width={100} />
         </IsLightTheme>
         <IsDarkTheme>
-          <Image alt="PoolTogether logo" height={100} src={turboIntegrations.connext.imgLight} width={100} />
+          <Image alt="connext logo" height={100} src={turboIntegrations.connext.imgLight} width={100} />
+        </IsDarkTheme>
+      </div>
+    ),
+  },
+  {
+    title: turboIntegrations.sismo.name,
+    description: turboIntegrations.sismo.description,
+    href: turboIntegrations.sismo.href,
+    demo: (
+      <div className="flex items-center justify-center space-x-20">
+        <IsLightTheme>
+          <Image alt="sismo logo" height={100} src={turboIntegrations.sismo.imgDark} width={100} />
+        </IsLightTheme>
+        <IsDarkTheme>
+          <Image alt="sismo logo" height={100} src={turboIntegrations.sismo.imgLight} width={100} />
         </IsDarkTheme>
       </div>
     ),
